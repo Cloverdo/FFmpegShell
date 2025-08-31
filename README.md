@@ -44,6 +44,16 @@ ffmpeg -i "C:\videos\input3.avi" -c:a copy "D:\output\output3.mp4"
 
 或者打开一个 PowerShell 窗口，输入脚本的完整路径并按回车。
 
+设置PowerShell执行策略：
+
+如果您之前没有设置过，请以 管理员身份 打开 PowerShell。
+
+在管理员 PowerShell 窗口中，输入以下命令并按回车，然后输入 Y 确认：
+
+PowerShell
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
 输入路径:
 根据提示，输入您创建的 ffmpeg_commands.txt 文件的完整路径，或者它所在的文件夹路径，然后按回车。
 
