@@ -40,7 +40,7 @@ ffmpeg -i "C:\videos\input3.avi" -c:a copy "D:\output\output3.mp4"
 
 运行脚本:
 
-右键点击 ffmpeg_runner_v3.2.ps1 脚本文件，选择“使用 PowerShell 运行”。
+右键点击脚本文件，选择“使用 PowerShell 运行”。
 
 或者打开一个 PowerShell 窗口，输入脚本的完整路径并按回车。
 
